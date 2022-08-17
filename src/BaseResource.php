@@ -14,7 +14,7 @@ class BaseResource
     public function __construct(string $autentiqueURL = "", bool $autentiqueDevMode = false)
     {
         $this->api = new Api($autentiqueURL);
-        $this->sandbox = $autentiqueDevMode;
+        $this->sandbox = $autentiqueDevMode?"true":"false";
         $this->resourcesEnum = ResourcesEnum::class;
     }
 }
