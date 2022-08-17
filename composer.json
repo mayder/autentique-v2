@@ -1,7 +1,7 @@
 {
-  "name": "vinicinbgs/autentique-v2",
+  "name": "mayder/autentique-v2",
   "type": "library",
-  "description": "Api Autentique V2",
+  "description": "Api Autentique V2 copia do projeto de Vinicius Morais Dutra",
   "minimum-stability": "dev",
   "keywords": [
     "api",
@@ -13,13 +13,12 @@
     "test-coverage": "vendor/bin/phpunit --coverage-html coverage/",
     "load": "composer dumpautoload"
   },
-  "homepage": "https://github.com/vinicinbgs/autentique-v2",
+  "homepage": "https://github.com/mayder/autentique-v2",
   "license": "MIT",
   "authors": [
     {
-      "name": "Vinicius Morais Dutra",
-      "email": "dutra_morais@hotmail.com",
-      "role": "Developer"
+      "name": "mayder",
+      "email": "breno@hamy.com.br"
     }
   ],
   "require": {
@@ -28,7 +27,6 @@
     "ext-json": "*"
   },
   "require-dev": {
-    "vlucas/phpdotenv": "^4.1",
     "phpunit/phpunit": "^9.5"
   },
   "autoload": {
@@ -37,7 +35,7 @@
       "tests"
     ],
     "psr-4": {
-      "vinicinbgs\\Autentique\\": "src/"
+      "mayder\\Autentique\\": "src/"
     }
   }
 }
