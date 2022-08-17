@@ -1,11 +1,11 @@
 <?php
 
-namespace vinicinbgs\Autentique\tests;
+namespace mayder\Autentique\tests;
 
-use vinicinbgs\Autentique\tests\_Base;
+use mayder\Autentique\tests\_Base;
 
-use vinicinbgs\Autentique\Utils\Query;
-use vinicinbgs\Autentique\Enums\ResourcesEnum;
+use mayder\Autentique\Utils\Query;
+use mayder\Autentique\Enums\ResourcesEnum;
 
 class QueryTest extends _Base
 {

@@ -1,9 +1,9 @@
 <?php
 
-namespace vinicinbgs\Autentique;
+namespace mayder\Autentique;
 
-use vinicinbgs\Autentique\Enums\ResourcesEnum;
-use vinicinbgs\Autentique\Utils\Api;
+use mayder\Autentique\Enums\ResourcesEnum;
+use mayder\Autentique\Utils\Api;
 
 class BaseResource
 {

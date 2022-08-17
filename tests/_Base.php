@@ -1,6 +1,6 @@
 <?php
 
-namespace vinicinbgs\Autentique\tests;
+namespace mayder\Autentique\tests;
 
 use PHPUnit\Framework\TestCase;
 

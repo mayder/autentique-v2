@@ -1,6 +1,6 @@
 <?php
 
-namespace vinicinbgs\Autentique\Utils;
+namespace mayder\Autentique\Utils;
 
 class Query
 {

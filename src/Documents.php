@@ -1,8 +1,8 @@
 <?php
 
-namespace vinicinbgs\Autentique;
+namespace mayder\Autentique;
 
-use vinicinbgs\Autentique\Utils\Query;
+use mayder\Autentique\Utils\Query;
 
 class Documents extends BaseResource
 {

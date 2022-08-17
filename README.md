@@ -1,19 +1,19 @@
 #### AUTENTIQUE Api v2
 
-[![Latest Stable Version](https://img.shields.io/packagist/v/vinicinbgs/autentique-v2)](https://packagist.org/packages/vinicinbgs/autentique-v2)
-[![Total Downloads](https://poser.pugx.org/vinicinbgs/autentique-v2/downloads)](https://packagist.org/packages/vinicinbgs/autentique-v2)
-[![Build Status](https://travis-ci.org/vinicinbgs/autentique-v2.svg?branch=master)](https://travis-ci.org/vinicinbgs/autentique-v2)
-[![codecov](https://codecov.io/gh/vinicinbgs/autentique-v2/branch/master/graph/badge.svg)](https://codecov.io/gh/vinicinbgs/autentique-v2)
-[![Scrutinizer Code Quality](https://scrutinizer-ci.com/g/vinicinbgs/autentique-v2/badges/quality-score.png?b=master)](https://scrutinizer-ci.com/g/vinicinbgs/autentique-v2/?branch=master)
-[![Code Intelligence Status](https://scrutinizer-ci.com/g/vinicinbgs/autentique-v2/badges/code-intelligence.svg?b=master)](https://scrutinizer-ci.com/code-intelligence)
-[![License](https://poser.pugx.org/vinicinbgs/autentique-v2/license)](https://packagist.org/packages/vinicinbgs/autentique-v2)
+[![Latest Stable Version](https://img.shields.io/packagist/v/mayder/autentique-v2)](https://packagist.org/packages/mayder/autentique-v2)
+[![Total Downloads](https://poser.pugx.org/mayder/autentique-v2/downloads)](https://packagist.org/packages/mayder/autentique-v2)
+[![Build Status](https://travis-ci.org/mayder/autentique-v2.svg?branch=master)](https://travis-ci.org/mayder/autentique-v2)
+[![codecov](https://codecov.io/gh/mayder/autentique-v2/branch/master/graph/badge.svg)](https://codecov.io/gh/mayder/autentique-v2)
+[![Scrutinizer Code Quality](https://scrutinizer-ci.com/g/mayder/autentique-v2/badges/quality-score.png?b=master)](https://scrutinizer-ci.com/g/mayder/autentique-v2/?branch=master)
+[![Code Intelligence Status](https://scrutinizer-ci.com/g/mayder/autentique-v2/badges/code-intelligence.svg?b=master)](https://scrutinizer-ci.com/code-intelligence)
+[![License](https://poser.pugx.org/mayder/autentique-v2/license)](https://packagist.org/packages/mayder/autentique-v2)
 
 # 🚀 Usage
 
 ## This package is so simple to use that it will save your time.
 
 ```bash
-composer require vinicinbgs/autentique-v2
+composer require mayder/autentique-v2
 ```
 
 ## ⚠️ IMPORTANT
@@ -38,7 +38,7 @@ AUTENTIQUE_DEV_MODE="true" || "false"
 **Import library**
 
 ```php
-use vinicinbgs\Autentique\Documents;
+use mayder\Autentique\Documents;
 
 $AUTENTIQUE_TOKEN="xxxxxxxx" (set or will be take in .env)
 
@@ -164,7 +164,7 @@ $folderDeleted = $folders->deleteById($folderId);
 ### 💻 Setup
 
 ```sh
-git clone git@github.com:vinicinbgs/autentique-v2.git
+git clone git@github.com:mayder/autentique-v2.git
 cd autentique-v2
 composer install
 npm install

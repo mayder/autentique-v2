@@ -1,6 +1,6 @@
 <?php
 
-namespace vinicinbgs\Autentique\Enums;
+namespace mayder\Autentique\Enums;
 
 class ResourcesEnum
 {

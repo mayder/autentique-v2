@@ -1,9 +1,9 @@
 <?php
 
-namespace vinicinbgs\Autentique\tests;
+namespace mayder\Autentique\tests;
 
-use vinicinbgs\Autentique\tests\_Base;
-use vinicinbgs\Autentique\Utils\Api;
+use mayder\Autentique\tests\_Base;
+use mayder\Autentique\Utils\Api;
 
 class ApiTest extends _Base
 {
