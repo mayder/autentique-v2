@@ -8,17 +8,13 @@ use mayder\Autentique\Utils\Api;
 class BaseResource
 {
     protected $api;
-
     protected $sandbox;
-
     protected $resourcesEnum;
 
-    public function __construct()
+    public function __construct(string $autentiqueURL = "", bool $autentiqueDevMode = false)
     {
-        $this->api = new Api(getenv("AUTENTIQUE_URL") ?? "");
-
-        $this->sandbox = getenv("AUTENTIQUE_DEV_MODE") ?? "false";
-
+        $this->api = new Api($autentiqueURL);
+        $this->sandbox = $autentiqueDevMode;
         $this->resourcesEnum = ResourcesEnum::class;
     }
 }

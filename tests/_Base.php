@@ -8,20 +8,22 @@ class _Base extends TestCase
 {
     /** @var string */
     protected $token;
+    private $autentiqueURL;
+    private $autentiqueToken;
 
-    public static function setUpBeforeClass(): void
+    public function __construct(string $autentiqueURL = "", string $autentiqueToken = "")
     {
-        $dotenv = \Dotenv\Dotenv::createImmutable(__DIR__ . "/..");
-        $dotenv->load();
+        $this->autentiqueURL = $autentiqueURL;
+        $this->autentiqueToken = $autentiqueToken;
     }
 
     protected function token()
     {
-        return getenv("AUTENTIQUE_TOKEN");
+        return $this->autentiqueURL;
     }
 
     protected function autentiqueUrl()
     {
-        return getenv("AUTENTIQUE_URL");
+        return $this->autentiqueToken;
     }
 }

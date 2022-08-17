@@ -8,18 +8,21 @@ class Folders extends BaseResource
 {
     private $query;
     private $token;
+    protected $api;
+    protected $sandbox;
+    protected $resourcesEnum;
 
     /**
      * Documents constructor.
      *
      * @param $token
      */
-    public function __construct(string $token)
+    public function __construct(string $token = null, string $autentiqueURL = "", bool $autentiqueDevMode = false)
     {
-        parent::__construct();
+        parent::__construct(autentiqueURL: $autentiqueURL, autentiqueDevMode: $autentiqueDevMode);
 
         $this->query = new Query($this->resourcesEnum::FOLDERS);
-        $this->token = $token ?? $_ENV["AUTENTIQUE_TOKEN"];
+        $this->token = $token;
     }
 
     /**
